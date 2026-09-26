@@ -1,22 +1,21 @@
-/* W02 LH 5. Formatted Input - scanf*/
+/*Lab 4 Exercise 04*/
 
 #include<stdio.h>
+int main (){
 
-int main(void){
-    int age;
-    double salary;
-    char initial;
+    int x = 5;
+    if (x == 0)
+        printf("Zero\n");
+    else
+        printf("Non-Zero\n");
 
-    printf("Enter age: ");
-    scanf("%d", &age);        /* & is the address - of operator */
+    switch (x) {
+        case 5:
+            printf("Five\n");
+            break;
+        case 6:
+            printf("Six\n");
+            break;
+    }
 
-    printf("Enter salary: ");
-    scanf("%lf", &salary);  /* use %lf for for double with scanf */
-
-    printf("Enter initial: ");
-    scanf(" %c", &initial);  /* space before %c skips whitespace */
-
-    printf("Age: %d, Salary: %.2f, Initial: %c\n", age, salary, initial);
-
-    return 0;
 }
