@@ -36,6 +36,9 @@ int main()
     case '/':
         result = num1 / num2;
         break;
+
+    default:
+        printf("Invalid operator\n");
     }
 
     printf("Result: %.4lf", result);
