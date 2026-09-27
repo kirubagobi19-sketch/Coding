@@ -9,7 +9,7 @@ int main()
     {
         printf("Enter a Number greater than 0: ");
         scanf("%d", &number);
-    }
+        }
 
     return 0;
 }

@@ -15,6 +15,8 @@ int main()
     //            Arguments can be sent to a function so that it can use them
 
     happyBirthday();
+    happyBirthday();
+    happyBirthday();
 
     return 0;
 }
